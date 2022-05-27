@@ -37,7 +37,7 @@
 /* Header: Left */
 .twitch-header-left {
     display: flex;
-    width: 32%;
+    width: 100px;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -132,7 +132,7 @@
 /* Header: Right */
 .twitch-header-right {
     display: flex;
-    width: 25%;
+    width: 100px;
     height: auto;
     align-items: center;
     justify-content: space-around;
@@ -216,24 +216,30 @@
     align-items: flex-start;
     padding: 8px;
     justify-content: center;
+    overflow: hidden;
 }
 /* Twitch Content: Ad */
 .twitch-content-main_ad {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
+}
+.twitch-content-main_ad_vid {
+    width: 500px;
+    height: auto;
 }
 .ad {
     display: flex;
-    width: 95%;
+    width: 100%;
     height: auto;
     position: relative;
 }
 .left {
     width: 10px;
     height: auto;
+    padding: 0px 20px;
 }
 /* Twitch Content: Text */
 .twitch-content-main_text {
@@ -246,10 +252,20 @@
     display: flex;
     padding-bottom: 4px;
     gap: 3px;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
 }
 .twitch-content-main_channels_game {
     display: flex;
     flex-direction: column;
+    width: 300px;
+}
+.twitch-content-main_channels_none {
+    display:none;
+}
+.twitch-content-main_channels_none_s {
+    display: none;
 }
 .thumbnail {
     width: 100%;
@@ -299,7 +315,7 @@
     width: 100%;
     display: flex;
     font-size: 5px;
-    position: fixed;
+    position: absolute;
     justify-content: center;
     align-items: center;
 }
@@ -336,9 +352,11 @@
 .twitch-content-main_categories {
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding-bottom: 6px;
+    overflow: scroll;
+    overflow-y: hidden;
 }
 .twitch-content-main_categories_game {
     display: flex;
@@ -346,6 +364,12 @@
     justify-content: center;
     align-items: flex-start;
     padding: 0 2px;
+}
+.twitch-content-main_categories-dad {
+    width: 100%;
+}
+.twitch-content-main_categories_game_pic {
+    width: 100px;
 }
 .catpic {
     width:100%;
@@ -395,7 +419,7 @@
 }
 .twitch-content-main_explore_games {
     display: flex;
-    width: 150px;
+    width: 100px;
     height: 15px;
     background-color: #772CE8;
     border-radius: 2px;
@@ -414,4 +438,22 @@
     justify-content: center;
     align-items: center;
 }
+
 /* IPAD */
+@media screen and (min-width: 600px) {
+    .twitch-content-main_channels_none {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .twitch-content-main_explore_games {
+        width: 200px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .twitch-content-main_channels_none_s {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+}
