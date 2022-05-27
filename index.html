@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Radio+Canada&family=Roboto&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="twitch">
+        <section class="twitch-header">
+            <div class="twitch-header-left">
+                <div class="twitch-header-left_logo">
+                    <img class="twitch-logo" src="images/twitchlogo.png">
+                </div>
+                <div class="twitch-header-left_text">
+                    <div>
+                        <p>Following</p>
+                    </div>
+                    <div>
+                        <p>Browse</p>
+                    </div>
+                </div>
+                <div class="twitch-header-left_menu">
+                    <svg class="twitch-header-left_menu_icon" viewBox="0 0 24 24">
+                        <path fill="#FFFFFF"
+                            d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="twitch-header-mid">
+                <input class="twitch-search" type="text" placeholder="Search">
+                <button class="twitch-search_button"><img src="images/search.png" class="button"></button>
+            </div>
+            <div class="twitch-header-right">
+                <div class="twitch-header-right_content">
+                    <img class="twitch-prime" src="images/prime.png">
+                </div>
+                <div class="twitch-header-right_content">
+                    <img class="twitch-prime" src="images/notification.png">
+                </div>
+                <div class="twitch-header-right_content">
+                    <img class="twitch-prime" src="images/chat.png">
+                </div>
+                <div class="twitch-header-right_content">
+                    <div class="twitch-header-right-bits_logo">
+                        <img class="twitch-bits" src="images/bits.png">
+                    </div>
+                </div>
+                <div class="twitch-header-right_profile">
+                    <img class="twitch-profile" src="images/profile.png">
+                </div>
+            </div>
+        </section>
+        <section class="twitch-content">
+            <div class="twitch-content-following">
+                <div class="twitch-content-following_on">
+                    <svg class = "heart" fill="#66666E" width="7px" height="7px" version="1.1" viewBox="0 0 20 20" x="0px" y="0px" class="ScSvg-sc-1j5mt50-1 jxWtmu"><g><path fill-rule="evenodd" d="M9.171 4.171A4 4 0 006.343 3H6a4 4 0 00-4 4v.343a4 4 0 001.172 2.829L10 17l6.828-6.828A4 4 0 0018 7.343V7a4 4 0 00-4-4h-.343a4 4 0 00-2.829 1.172L10 5l-.829-.829zm.829 10l5.414-5.414A2 2 0 0016 7.343V7a2 2 0 00-2-2h-.343a2 2 0 00-1.414.586L10 7.828 7.757 5.586A2 2 0 006.343 5H6a2 2 0 00-2 2v.343a2 2 0 00.586 1.414L10 14.172z" clip-rule="evenodd"></path></g></svg>
+                    <img class="followers" src="images/u1.png">
+                    <img class="followers" src="images/u2.png">
+                    <img class="followers" src="images/u3.png">
+                    <img class="followers" src="images/u4.png">
+                    <img class="followers" src="images/u5.png">
+                    <img class="followers" src="images/u6.png">
+                    <img class="followers" src="images/u7.png">
+                    <img class="followers" src="images/u8.png">
+                    <img class="followers" src="images/u9.png">
+                    <img class="followers" src="images/u10.jpeg">
+                    <img class="followers" src="images/u4.png">
+                    <img class="followers" src="images/u5.png">
+                    <img class="followers" src="images/u6.png">
+                    <img class="followers" src="images/u7.png">
+                    <img class="followers" src="images/u1.png">
+                    <img class="followers" src="images/u2.png">
+                    <img class="followers" src="images/u10.jpeg">
+                    <img class="followers" src="images/u9.png">
+                    <img class="followers" src="images/u3.png">
+                    <img class="followers" src="images/u4.png">
+                    <img class="followers" src="images/u2.png">
+                    <img class="followers" src="images/u3.png">
+                    <img class="followers" src="images/u4.png">
+                    <img class="followers" src="images/u5.png">
+                </div>
+            </div>
+            <div class="twitch-content-main">
+                <div class="twitch-content-main_ad">
+                    <div><img src="images/left.png" class="left"></div>
+                    <div><img src="images/ad.png" class="ad"></div>
+                    <div><img src="images/right.png" class="left"></div>
+                </div>
+                <div class="twitch-content-main_text">
+                    <p>Live channels we think you'll like</p>
+                </div>
+                <div class="twitch-content-main_channels">
+                    <div class="twitch-content-main_channels_game">
+                        <img class="thumbnail" src="images/thumbnail1.jpg">
+                        <div class="twitch-content-main_channels_info">
+                            <div class="twitch-content-main-channels_info_pic">
+                                <img class="streamer" src="images/itswill.png">
+                            </div>
+                            <div class="twitch-content-main-channels_info_content">
+                                <div class="twitch-content-main-channels_info_content_title">
+                                    <p>Little phosani for the culture - !newvid !tobdust</p>
+                                </div>
+                                <div class="twitch-content-main-channels_info_content_name">
+                                    <p class="twitch-content-main-channels_info_content_name_text">itswill</p>
+                                </div>
+                                <div class="">
+                                    <p class="twitch-content-main-channels_info_content_name_text">Old School RuneScape
+                                    </p>
+                                </div>
+                                <div class="twitch-content-main-channels_info_content_language">
+                                    <p class="greybg">English</p>
+                                </div>
+                            </div>
+                            <div class="twitch-content-main-channels_info_menu">
+                                <svg class="twitch-content-main-channels_info_menu_img" viewBox="0 0 24 24">
+                                    <path fill="#FFFFFF"
+                                        d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="twitch-content-main_channels_game">
+                        <img class="thumbnail" src="images/thumbnail2.jpg">
+                        <div class="twitch-content-main_channels_info">
+                            <div class="twitch-content-main-channels_info_pic">
+                                <img class="streamer" src="images/zoepancakes.png">
+                            </div>
+                            <div class="twitch-content-main-channels_info_content">
+                                <div class="twitch-content-main-channels_info_content_title">
+                                    <p>:) !vacation !pb</p>
+                                </div>
+                                <div class="twitch-content-main-channels_info_content_name">
+                                    <p class="twitch-content-main-channels_info_content_name_text">zoepancakes</p>
+                                </div>
+                                <div class="">
+                                    <p class="twitch-content-main-channels_info_content_name_text">Old School RuneScape
+                                    </p>
+                                </div>
+                                <div class="twitch-content-main-channels_info_content_language">
+                                    <p class="greybg">English</p>
+                                </div>
+                            </div>
+                            <div class="twitch-content-main-channels_info_menu">
+                                <svg class="twitch-content-main-channels_info_menu_img" viewBox="0 0 24 24">
+                                    <path fill="#FFFFFF"
+                                        d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="twitch-content-main_divider">
+                    <div class="twitch-content-main_divider_hr">
+                        <hr class="hr">
+                    </div>
+                    <div class="twitch-content-main_divider_content">
+                        <p class="twitch-content-main_divider_content_text">Show more</p><svg class="down"
+                            viewBox="0 0 24 24">
+                            <path fill="#ab8cda" d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="twitch-content-main_text">
+                    <p><span class="purple">Categories</span> we think you'll like</p>
+                </div>
+                <div>
+                    <div class="twitch-content-main_categories">
+                        <div class="twitch-content-main_categories_game">
+                            <div class="twitch-content-main_categories_game_pic"><img class="catpic" src="images/cat1.jpg">
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_title">
+                                <p>Old School RuneScape</p>
+                                <svg class="twitch-content-main-channels_info_menu_img" viewBox="0 0 24 24">
+                                    <path fill="#FFFFFF"
+                                        d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" />
+                                </svg>
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_viewer">
+                                <p class="twitch-content-main-channels_info_content_name_text">4.4K viewers</p>
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_tag">
+                                <p class="greybg2">RPG</p>
+                                <p class="greybg2">MMO</p>
+                            </div>
+                        </div>
+                        <div class="twitch-content-main_categories_game">
+                            <div class="twitch-content-main_categories_game_pic"><img class="catpic" src="images/cat2.jpg">
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_title">
+                                <p>Just Chatting</p>
+                                <svg class="twitch-content-main-channels_info_menu_img" viewBox="0 0 24 24">
+                                    <path fill="#FFFFFF"
+                                        d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" />
+                                </svg>
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_viewer">
+                                <p class="twitch-content-main-channels_info_content_name_text">177K viewers</p>
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_tag">
+                                <p class="greybg2">IRL</p>
+                            </div>
+                        </div>
+                        <div class="twitch-content-main_categories_game">
+                            <div class="twitch-content-main_categories_game_pic"><img class="catpic" src="images/cat3.jpg">
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_title">
+                                <p>Stardew Valley</p>
+                                <svg class="twitch-content-main-channels_info_menu_img" viewBox="0 0 24 24">
+                                    <path fill="#FFFFFF"
+                                        d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" />
+                                </svg>
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_viewer">
+                                <p class="twitch-content-main-channels_info_content_name_text">4.9K viewers</p>
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_tag">
+                                <p class="greybg2">RPG</p>
+                                <p class="greybg2">Simulation</p>
+                            </div>
+                        </div>
+                        <div class="twitch-content-main_categories_game">
+                            <div class="twitch-content-main_categories_game_pic"><img class="catpic" src="images/cat4.jpg">
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_title">
+                                <p>Pokemon Emerald</p>
+                                <svg class="twitch-content-main-channels_info_menu_img" viewBox="0 0 24 24">
+                                    <path fill="#FFFFFF"
+                                        d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" />
+                                </svg>
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_viewer">
+                                <p class="twitch-content-main-channels_info_content_name_text">56 viewers</p>
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_tag">
+                                <p class="greybg2">RPG</p>
+                                <p class="greybg2">Adventure Game</p>
+                            </div>
+                        </div>
+                        <div class="twitch-content-main_categories_game">
+                            <div class="twitch-content-main_categories_game_pic"><img class="catpic" src="images/cat1.jpg">
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_title">
+                                <p>Old School RuneScape</p>
+                                <svg class="twitch-content-main-channels_info_menu_img" viewBox="0 0 24 24">
+                                    <path fill="#FFFFFF"
+                                        d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" />
+                                </svg>
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_viewer">
+                                <p class="twitch-content-main-channels_info_content_name_text">4.4K viewers</p>
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_tag">
+                                <p class="greybg2">RPG</p>
+                                <p class="greybg2">MMO</p>
+                            </div>
+                        </div>
+                        <div class="twitch-content-main_categories_game">
+                            <div class="twitch-content-main_categories_game_pic"><img class="catpic" src="images/cat2.jpg">
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_title">
+                                <p>Just Chatting</p>
+                                <svg class="twitch-content-main-channels_info_menu_img" viewBox="0 0 24 24">
+                                    <path fill="#FFFFFF"
+                                        d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" />
+                                </svg>
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_viewer">
+                                <p class="twitch-content-main-channels_info_content_name_text">177K viewers</p>
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_tag">
+                                <p class="greybg2">IRL</p>
+                            </div>
+                        </div>
+                        <div class="twitch-content-main_categories_game">
+                            <div class="twitch-content-main_categories_game_pic"><img class="catpic" src="images/cat3.jpg">
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_title">
+                                <p>Stardew Valley</p>
+                                <svg class="twitch-content-main-channels_info_menu_img" viewBox="0 0 24 24">
+                                    <path fill="#FFFFFF"
+                                        d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" />
+                                </svg>
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_viewer">
+                                <p class="twitch-content-main-channels_info_content_name_text">4.9K viewers</p>
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_tag">
+                                <p class="greybg2">RPG</p>
+                                <p class="greybg2">Simulation</p>
+                            </div>
+                        </div>
+                        <div class="twitch-content-main_categories_game">
+                            <div class="twitch-content-main_categories_game_pic"><img class="catpic" src="images/cat4.jpg">
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_title">
+                                <p>Pokemon Emerald</p>
+                                <svg class="twitch-content-main-channels_info_menu_img" viewBox="0 0 24 24">
+                                    <path fill="#FFFFFF"
+                                        d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" />
+                                </svg>
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_viewer">
+                                <p class="twitch-content-main-channels_info_content_name_text">56 viewers</p>
+                            </div>
+                            <div class="twitch-content-main_categories_game_pic_tag">
+                                <p class="greybg2">RPG</p>
+                                <p class="greybg2">Adventure Game</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="twitch-content-main_divider">
+                    <div class="twitch-content-main_divider_hr">
+                        <hr class="hr">
+                    </div>
+                    <div class="twitch-content-main_divider_content">
+                    </div>
+                </div>
+                <div class="twitch-content-main_explore">
+                    <div class="twitch-content-main_explore_games">
+                        <div class="twitch-content-main_explore_games_text">
+                            <p>Games</p>
+                        </div>
+                        <div class="twitch-content-main_explore_games_img">
+                            <img class = "bars" src = "images/bar1.svg">
+                        </div>
+                    </div>
+                    <div class="twitch-content-main_explore_games">
+                        <div class="twitch-content-main_explore_games_text">
+                            <p>IRL</p>
+                        </div>
+                        <div class="twitch-content-main_explore_games_img">
+                            <img class = "bars" src = "images/bar2.svg">
+                        </div>
+                    </div>
+                    <div class="twitch-content-main_explore_games">
+                        <div class="twitch-content-main_explore_games_text">
+                            <p>Music</p>
+                        </div>
+                        <div class="twitch-content-main_explore_games_img">
+                            <img class = "bars" src = "images/bar3.svg">
+                        </div>
+                    </div>
+                    <div class="twitch-content-main_explore_games">
+                        <div class="twitch-content-main_explore_games_text">
+                            <p>Esports</p>
+                        </div>
+                        <div class="twitch-content-main_explore_games_img">
+                            <img class = "bars" src = "images/bar4.svg">
+                        </div>
+                    </div>
+                    <div class="twitch-content-main_explore_games">
+                        <div class="twitch-content-main_explore_games_text">
+                            <p>Creative</p>
+                        </div>
+                        <div class="twitch-content-main_explore_games_img">
+                            <img class = "bars" src = "images/bar5.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="twitch-content-main_channels">
+                    <div class="twitch-content-main_channels_game">
+                        <img class="thumbnail" src="images/thumbnail3.jpg">
+                        <div class="twitch-content-main_channels_info">
+                            <div class="twitch-content-main-channels_info_pic">
+                                <img class="streamer" src="images/u1.png">
+                            </div>
+                            <div class="twitch-content-main-channels_info_content">
+                                <div class="twitch-content-main-channels_info_content_title">
+                                    <p>FRIENDS DIE OR DRINK PAIN:5/26/2022</p>
+                                </div>
+                                <div class="twitch-content-main-channels_info_content_name">
+                                    <p class="twitch-content-main-channels_info_content_name_text">KatZillaax3</p>
+                                </div>
+                                <div class="">
+                                    <p class="twitch-content-main-channels_info_content_name_text">Overwatch
+                                    </p>
+                                </div>
+                                <div class="twitch-content-main_categories_game_pic_tag">
+                                    <p class="greybg2">English</p>
+                                    <p class="greybg2">PVP</p>
+                                    <p class="greybg2">PC</p>
+                                    <p class="greybg2">LGBTQIA+</p>
+                                </div>
+                            </div>
+                            <div class="twitch-content-main-channels_info_menu">
+                                <svg class="twitch-content-main-channels_info_menu_img" viewBox="0 0 24 24">
+                                    <path fill="#FFFFFF"
+                                        d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="twitch-content-main_channels_game">
+                        <img class="thumbnail" src="images/thumbnail4.jpg">
+                        <div class="twitch-content-main_channels_info">
+                            <div class="twitch-content-main-channels_info_pic">
+                                <img class="streamer" src="images/u2.png">
+                            </div>
+                            <div class="twitch-content-main-channels_info_content">
+                                <div class="twitch-content-main-channels_info_content_title">
+                                    <p>egirl gets DESTROYED and dominated in games</p>
+                                </div>
+                                <div class="twitch-content-main-channels_info_content_name">
+                                    <p class="twitch-content-main-channels_info_content_name_text">Sweetbunney</p>
+                                </div>
+                                <div class="">
+                                    <p class="twitch-content-main-channels_info_content_name_text">League of Legends
+                                    </p>
+                                </div>
+                                <div class="twitch-content-main_categories_game_pic_tag">
+                                    <p class="greybg2">English</p>
+                                    <p class="greybg2">ADHD</p>
+                                    <p class="greybg2">USA</p>
+                                    <p class="greybg2">Spirituality</p>
+                                </div>
+                            </div>
+                            <div class="twitch-content-main-channels_info_menu">
+                                <svg class="twitch-content-main-channels_info_menu_img" viewBox="0 0 24 24">
+                                    <path fill="#FFFFFF"
+                                        d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="twitch-content-main_divider">
+                    <div class="twitch-content-main_divider_hr">
+                        <hr class="hr">
+                    </div>
+                    <div class="twitch-content-main_divider_content">
+                        <p class="twitch-content-main_divider_content_text">Show more</p><svg class="down"
+                            viewBox="0 0 24 24">
+                            <path fill="#ab8cda" d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                        </svg>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

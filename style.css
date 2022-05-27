@@ -1,0 +1,417 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Koulen', cursive;
+    font-family: 'Radio Canada', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+
+:root {
+    --Primary: #0E0E10;
+    --Secondary: #18181B;
+    --Theme: #ab8cda;
+}
+
+/* Main */
+.twitch {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.twitch-header {
+    display: flex;
+    background-color: var(--Secondary);
+    height: 20px;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #080809;
+}
+
+
+
+/* Header: Left */
+.twitch-header-left {
+    display: flex;
+    width: 32%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.twitch-header-left_logo {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    justify-content: center;
+    align-content: center;
+}
+
+.twitch-logo {
+    width: 100%;
+    height: 100%;
+}
+
+.twitch-header-left_text {
+    font-size: 4.5px;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: bold;
+}
+.twitch-header-left_menu_icon {
+    width: 100%; 
+    height:auto;
+}
+.threedots {
+    width: 100%;
+    height: auto;
+}
+
+.twitch-header-left_menu {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Header: Mid */
+.twitch-header-mid {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+.twitch-search { 
+    display:flex;
+    -webkit-appearance: none;
+    background-color: #464649 !important;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    height: 10px;
+    width: 70%;
+    padding: 1px;
+    outline: 0;
+    font-size: 6px;
+    text-indent: 5px;
+    border: 1.5px solid #18181B;
+}
+.twitch-search:hover {
+    box-shadow: inset 0px 0px 0px 1px #6a6a6e;
+}
+
+.twitch-search:focus {
+    box-shadow: inset 0px 0px 0px 1px rgb(105, 11, 178);
+    background-color: black !important;
+}
+.twitch-search_button {
+    display: flex;
+    height: 14px;
+    width: 14px;
+    background-color: #3A3A3D;
+    border: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    height: 7px;
+    width: auto;
+}
+/* Header: Right */
+.twitch-header-right {
+    display: flex;
+    width: 25%;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.twitch-header-right_content {
+    display: flex;
+    width: 6px;
+    height: 6px;
+    padding: 1px;
+    justify-content: center;
+    align-content: center;
+}
+
+.twitch-prime {
+    width: 100%;
+    height: auto;
+}
+
+.twitch-header-right-bits_logo {
+    display: flex;
+    width: 6px;
+    height: 6px;
+    justify-content: center;
+    align-content: center;
+}
+
+.twitch-bits {
+    width: 100%;
+    height: auto;
+}
+
+.twitch-header-right_profile {
+    display: flex;
+    width: 15px;
+    height: auto;
+    padding: 1px;
+    justify-content: center;
+    align-content: center;
+}
+
+.twitch-profile {
+    width: 100%;
+    height: auto;
+}
+
+/* Twitch Content  */
+.twitch-content {
+    display: flex;
+    background-color: #1F1F23;
+}
+/* Twitch Content: Followers  */
+.twitch-content-following {
+
+}
+.twitch-content-following_on {
+    display: flex;
+    flex-direction: column;
+    width: 15px;
+    height: auto;
+    background-color: #1F1F23;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+.heart {
+    color: white;
+    padding-top: 3px;
+}
+.followers {
+    padding: 2px;
+    width:65%;
+    border-radius: 50%;
+}
+/* Twitch Content: Streams  */
+.twitch-content-main {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Primary);
+    width: 100%;
+    align-items: flex-start;
+    padding: 8px;
+    justify-content: center;
+}
+/* Twitch Content: Ad */
+.twitch-content-main_ad {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+    width: 100%;
+}
+.ad {
+    display: flex;
+    width: 95%;
+    height: auto;
+    position: relative;
+}
+.left {
+    width: 10px;
+    height: auto;
+}
+/* Twitch Content: Text */
+.twitch-content-main_text {
+    font-size: 6px;
+    padding: 2px;
+    margin-bottom: 2px;
+}
+/* Twitch Content: Channel */
+.twitch-content-main_channels {
+    display: flex;
+    padding-bottom: 4px;
+    gap: 3px;
+}
+.twitch-content-main_channels_game {
+    display: flex;
+    flex-direction: column;
+}
+.thumbnail {
+    width: 100%;
+    height: auto;
+}
+.twitch-content-main_channels_info {
+    display: flex;
+    padding: 2px;
+}
+.twitch-content-main-channels_info_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 4px;
+    align-items: stretch;
+    width: 80%;
+}
+.streamer {
+    padding: 2px;
+    width: 15px;
+    height: auto;
+    border-radius: 50%;
+}
+.twitch-content-main-channels_info_content_name_text {
+    color:#6a6a6e;
+}
+.twitch-content-main-channels_info_content_language {
+    display: flex;
+}
+.twitch-content-main-channels_info_menu_img {
+    width: 7px;
+    height: auto;
+}
+/* Twitch Content: Divider */
+.twitch-content-main_divider {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.twitch-content-main_divider_hr {
+    width: 100%;
+    height: auto;
+}
+.twitch-content-main_divider_content {
+    width: 100%;
+    display: flex;
+    font-size: 5px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.twitch-content-main_divider_content_text {
+    background-color: var(--Primary);
+    color: var(--Theme);
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 10px;
+}
+.down {
+    display: flex;
+    background-color: var(--Primary);
+    width:6px;
+    height:6px;
+    padding: 0 10px 0 2px;
+}
+.hr {
+    border-top: 0.5px solid #272728;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.purple {
+    color: var(--Theme);
+}
+.greybg {
+    background-color: #323234;
+    border-radius: 5px;
+    padding: 1px 3px;
+    color: #afafb6;
+}
+/* Twitch Content: Categories */
+.twitch-content-main_categories {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6px;
+}
+.twitch-content-main_categories_game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 2px;
+}
+.catpic {
+    width:100%;
+    height: auto;
+}
+.twitch-content-main_categories_game_pic_title {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 5px;
+}
+.twitch-content-main-channels_info_content_name_text {
+    color: #6a6a6e;
+    font-size: 4px;
+    padding: 1px;
+}
+.twitch-content-main_categories_game_pic_tag {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3px;
+}
+.greybg2 {
+    background-color: #323234;
+    border-radius: 5px;
+    padding: 0.5px 4px;
+    font-size: 4px;
+    color: #afafb6;
+}
+/* Twitch Content: Explore */
+.twitch-content-main_explore {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 1px;
+    padding: 1px 1px 5px 1px;
+    flex-wrap: wrap;
+}
+.bars {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.twitch-content-main_explore_games_img {
+    width: 20px;
+}
+.twitch-content-main_explore_games {
+    display: flex;
+    width: 150px;
+    height: 15px;
+    background-color: #772CE8;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    margin-right: 2px;
+    padding: 0px 5px;
+    flex-wrap: nowrap;
+}
+.twitch-content-main_explore_games_text {
+    display: flex;
+    height: 100%;
+    font-size: 8px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+/* IPAD */
